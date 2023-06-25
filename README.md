@@ -62,4 +62,4 @@ However, it's important to note that:
 - You must include a copy of the license in any redistribution you make that includes this software.
 - You cannot hold the author liable for any damages that arise from your use of the bookmarklet.
 
-For the full details, please refer to the [LICENSE](LICENSE) file in the root directory of this repository, which contains the full text of the MIT License that governs the use of the Bias Corrector Bookmarklet.
+For the full details, please refer to the [LICENSE](LICENSE.txt) file in the root directory of this repository, which contains the full text of the MIT License that governs the use of the Bias Corrector Bookmarklet.
