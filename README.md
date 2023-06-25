@@ -10,6 +10,8 @@ The bookmarklet tries to locate the main content of the page by scanning for HTM
 
 The extracted text is then prefixed with a specific preamble and copied to your clipboard. If the bookmarklet fails to find an appropriate element or encounters another error, it instead copies an error message and its own source code to your clipboard. A JavaScript alert informs the user about the operation's success or failure.
 
+[![](https://mermaid.ink/img/pako:eNplUUtPwzAM_itWzuMP5DAJuglxQUjArRc38bZoTRwSdw9N---kpaC23Pz4XpZvyrAlpVWmr46CoY3DfUJfB4CISZxxEYPAZ6a0nD0xHz2mY0uyXFWtiw1jssvFY0tpQPeCD-v1REPDSzjxkTI0c-EJZsnYXiShkQxCF4FdYg9naiLu6T_xL5OGiqOjkSQMZpp2Thryati4HFu8ZsC-B085jx6vLAR8ojRctBrxfQ0GAwQ-l_tzwciBwPS-9sfXheJcHVCe3z7USnlKHp0tn7j1srUqeE-10qW0JU6t6nAvOOyE36_BKC2po5XqokX5_dp8uLVOOCm9wzbT_RtcVrBk?type=png)](https://mermaid.live/edit#pako:eNplUUtPwzAM_itWzuMP5DAJuglxQUjArRc38bZoTRwSdw9N---kpaC23Pz4XpZvyrAlpVWmr46CoY3DfUJfB4CISZxxEYPAZ6a0nD0xHz2mY0uyXFWtiw1jssvFY0tpQPeCD-v1REPDSzjxkTI0c-EJZsnYXiShkQxCF4FdYg9naiLu6T_xL5OGiqOjkSQMZpp2Thryati4HFu8ZsC-B085jx6vLAR8ojRctBrxfQ0GAwQ-l_tzwciBwPS-9sfXheJcHVCe3z7USnlKHp0tn7j1srUqeE-10qW0JU6t6nAvOOyE36_BKC2po5XqokX5_dp8uLVOOCm9wzbT_RtcVrBk)
+
 ## How to Use the Bookmarklet
 
 1. **Add the Bookmarklet to Your Browser:** Open your web browser (this guide works for browsers like Google Chrome, Firefox, and Safari). Right-click on the bookmarks bar and select "Add Page" in Chrome (or "New Bookmark" in Firefox). In the dialog box that appears, name the bookmarklet as you like in the 'Name' field. In the 'URL' field, paste the entire JavaScript code provided in the `bookmarklet.js` file in this repository. Click 'Save'.
