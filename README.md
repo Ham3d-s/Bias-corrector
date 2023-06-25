@@ -44,8 +44,6 @@ We welcome everyone's contribution! Here's how you can help:
 
 - **Submitting changes:** If you've made a beneficial change to the bookmarklet, please open a pull request. Include a detailed description of your changes and the reasons for incorporating them.
 
-Thank you forHere's the rest of the README content:
-
 ## License
 
 The Bias Corrector Bookmarklet is free software that's open to the public for use, modification, and distribution under the terms of the MIT License.
