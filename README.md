@@ -1,14 +1,14 @@
 # Bias Corrector Bookmarklet
 
-Welcome to the Bias Corrector Bookmarklet project! This repository contains a JavaScript bookmarklet that extracts text content from web articles and copies it to your clipboard, prefixed by a specific preamble. 
+Welcome to the Bias Corrector Bookmarklet project! This repository houses a JavaScript bookmarklet that extracts text from web articles, and copies it to your clipboard, prefixed by a specific preamble. 
 
-This bookmarklet is designed to aid in analyzing and rewriting web articles for improved information content, focus, and neutrality. If it encounters an error, it generates an error message and its own source code to your clipboard, aiding in debugging and further development.
+The primary aim of this bookmarklet is to assist in the analysis and rewriting of web articles to increase their information content, neutrality, and focus. In case of an error, it generates a debug-friendly output by copying an error message and its own source code to your clipboard.
 
 ## How the Bookmarklet Works
 
-The bookmarklet attempts to find the main content of the article on the page by looking for HTML elements that often contain the main content (`article`, `.article`, `.post`, `.entry`, `main`, `.content`). If it finds such an element, it extracts the text from it, appending a newline after any heading, paragraph, list item, or div. 
+The bookmarklet tries to locate the main content of the page by scanning for HTML elements typically containing the main content (`article`, `.article`, `.post`, `.entry`, `main`, `.content`). Upon finding such an element, it extracts the text, adding a newline after any heading, paragraph, list item, or div.
 
-The extracted text is then prefixed with a specific preamble and copied to your clipboard. If the bookmarklet doesn't find an appropriate element, or encounters another error, it instead copies an error message and its own source code to your clipboard. After the operation, a JavaScript alert informs the user about the success or failure of the operation.
+The extracted text is then prefixed with a specific preamble and copied to your clipboard. If the bookmarklet fails to find an appropriate element or encounters another error, it instead copies an error message and its own source code to your clipboard. A JavaScript alert informs the user about the operation's success or failure.
 
 ## How to Use the Bookmarklet
 
@@ -18,15 +18,48 @@ The extracted text is then prefixed with a specific preamble and copied to your 
 
 3. **Check Your Clipboard:** After the alert, you can paste the content from your clipboard into a document or text editor to check what was copied. If the bookmarklet succeeded, you will see the preamble followed by the article text. If the bookmarklet failed, you will see an error message and the source code of the bookmarklet.
 
+## Development Roadmap
+
+Here are potential enhancements to the Bias Corrector Bookmarklet project, listed in a priority order:
+
+- [ ] **Enhanced Error Handling:** Improve error messages to be more descriptive and include the URL of the page where the error occurred.
+
+- [ ] **Support More Content Selectors:** Research common web page structures to identify additional likely content selectors.
+
+- [ ] **Improved Text Extraction:** Enhance handling of nested elements, formatting, and inclusion of image alt text and captions. Consider options to include/exclude comments.
+
+- [ ] **User Configurable Preamble:** Develop a method for users to edit the preamble without modifying the bookmarklet code.
+
+- [ ] **Support for More Browsers:** Test the bookmarklet in different browsers and fix compatibility issues.
+
 ## Contributing to the Project
 
-We welcome contributions from everyone. Here's how you can help:
+We welcome everyone's contribution! Here's how you can help:
 
-- **Reporting bugs:** If you find a bug while using the bookmarklet, please open an issue in this repository describing the problem and the conditions under which it occurred. If possible, include the URL of the webpage where the problem occurred and the error message you received.
+- **Reporting bugs:** Please open an issue in this repository describing the problem and conditions under which it occurred. If possible, include the URL of the webpage where the problem occurred and the error message you received.
 
 - **Suggesting improvements:** If you have an idea for improving the bookmarklet, please open an issue describing your suggestion.
 
-- **Submitting changes:** If you've made a change to the bookmarklet that you think would be beneficial, please open a pull request. Include a detailed description of your changes and why you think they should be incorporated.
+- **Submitting changes:** If you've made a beneficial change to the bookmarklet, please open a pull request. Include a detailed description of your changes and the reasons for incorporating them.
 
-Thank you for your interest in the Article Text Extractor Bookmarklet project. We look forward to your contributions!
+Thank you forHere's the rest of the README content:
 
+## License
+
+The Bias Corrector Bookmarklet is free software that's open to the public for use, modification, and distribution under the terms of the MIT License.
+
+The MIT License is a permissive, short, and flexible license. It allows for almost unlimited freedom with the software as long as you include the original copyright and license notice in any copy of the software/source. To put it simply, you can do whatever you want with this software as long as you include the original copyright and license notice.
+
+This essentially means:
+
+- You are permitted to use the Bias Corrector Bookmarklet for any purpose, including commercially.
+- You are allowed to modify the bookmarklet source code to suit your needs.
+- You are free to distribute copies of the original or the modified bookmarklet.
+- You can incorporate the bookmarklet into your own project, whether it's open or closed source.
+
+However, it's important to note that:
+
+- You must include a copy of the license in any redistribution you make that includes this software.
+- You cannot hold the author liable for any damages that arise from your use of the bookmarklet.
+
+For the full details, please refer to the [LICENSE](LICENSE) file in the root directory of this repository, which contains the full text of the MIT License that governs the use of the Bias Corrector Bookmarklet.
