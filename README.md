@@ -24,15 +24,15 @@ The extracted text is then prefixed with a specific preamble and copied to your 
 
 Here are potential enhancements to the Bias Corrector Bookmarklet project, listed in a priority order:
 
-- [ ] **Enhanced Error Handling:** Improve error messages to be more descriptive and include the URL of the page where the error occurred.
+- [x] **Enhanced Error Handling:** Improve error messages to be more descriptive and include the URL of the page where the error occurred.
 
-- [ ] **Support More Content Selectors:** Research common web page structures to identify additional likely content selectors.
+- [x] **Support More Content Selectors:** Research common web page structures to identify additional likely content selectors.
 
-- [ ] **Improved Text Extraction:** Enhance handling of nested elements, formatting, and inclusion of image alt text and captions. Consider options to include/exclude comments.
+- [x] **Improved Text Extraction:** Enhance handling of nested elements, formatting, and inclusion of image alt text and captions. Consider options to include/exclude comments.
 
 - [ ] **User Configurable Preamble:** Develop a method for users to edit the preamble without modifying the bookmarklet code.
 
-- [ ] **Support for More Browsers:** Test the bookmarklet in different browsers and fix compatibility issues.
+- [x] **Support for More Browsers:** Test the bookmarklet in different browsers and fix compatibility issues.
 
 ## Contributing to the Project
 
