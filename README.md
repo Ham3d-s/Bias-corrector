@@ -44,6 +44,13 @@ We welcome everyone's contribution! Here's how you can help:
 
 - **Submitting changes:** If you've made a beneficial change to the bookmarklet, please open a pull request. Include a detailed description of your changes and the reasons for incorporating them.
 
+
+## Bookmarklet wiki pages:
+
+- [Bias Corrector Bookmarklet (EN)](https://github.com/Ham3d-s/Bias-corrector/wiki/Bias-Corrector-Bookmarklet-(EN)): This link leads to the English version of the wiki page, providing instructions and features of the Bias Corrector Bookmarklet.
+- [Bias Corrector Bookmarklet (FA)](https://github.com/Ham3d-s/Bias-corrector/wiki/Bias-Corrector-Bookmarklet-(FA)): This link directs you to the Persian version of the wiki page for local users.
+
+
 ## License
 
 The Bias Corrector Bookmarklet is free software that's open to the public for use, modification, and distribution under the terms of the MIT License.
